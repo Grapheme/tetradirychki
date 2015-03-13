@@ -20,8 +20,10 @@ define('DIR_LOGS', '/var/www/code/data/www/tetradirychki.com/system/logs/');
 // DB
 define('DB_DRIVER', 'mysql');
 define('DB_HOSTNAME', 'localhost');
-define('DB_USERNAME', 'tetradirychki');
-define('DB_PASSWORD', 'GxSbVmwyRNUNCKfR');
+#define('DB_USERNAME', 'tetradirychki');
+define('DB_USERNAME', 'root');
+#define('DB_PASSWORD', 'GxSbVmwyRNUNCKfR');
+define('DB_PASSWORD', 'k.,jdmythtdyetnyfghfcyj');
 define('DB_DATABASE', 'tetradirychki');
 define('DB_PREFIX', 'oc_');
 ?>
